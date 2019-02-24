@@ -123,7 +123,7 @@ driver = webdriver.Chrome()
 optionss = webdriver.ChromeOptions()
 optionss.add_argument("--disable-popup-blocking")
 optionss.add_argument("--disable-extensions")
-count = 1 #count
+count = 3 #count
 
 if options.username == None:
     if options.usernamesel == None:
